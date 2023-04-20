@@ -1,6 +1,4 @@
-﻿#include <conio.h>
-#include <memory.h>
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <stack>
 
@@ -16,7 +14,7 @@ int firstVert[MAX_V], visited[MAX_V];
 int edgeCount = 0, capacity[MAX_E], onEnd[MAX_E], nextEdge[MAX_E];
 
 int read_matrix(int matr[N][N]) {
-	ifstream in("C:\\Users\\olegs\\lab4dm\\Lab_4\\Lab_4\\2.txt");
+	ifstream in("2.txt");
 	if (in.is_open())
 	{
 		for (int i = 0; i < N; i++)
